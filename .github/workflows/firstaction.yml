@@ -5,7 +5,7 @@ name: Hello Actions
 # Controls when the workflow will run
 on:
   schedule:
-    - cron: 49 20 * * *
+    - cron: 59 20 * * *
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world, I am coming!
+        run: echo Hello, world, I am coming!!!
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
